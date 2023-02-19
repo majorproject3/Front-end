@@ -16,9 +16,13 @@ const ArticlePost = () => {
             Some quick example text to build on the card title and make up the
             bulk of the card's content.
           </Card.Text>
+
           <Card.Text> Author : </Card.Text>
           <Card.Text> created at:</Card.Text>
           <Card.Text> Updated at :</Card.Text>
+          <button class="btn2">Like</button>
+          <Card.Text> Comment</Card.Text>
+          <input type="text" id="textbox" />
         </Card.Body>
       </Card>
     </div>
