@@ -17,10 +17,23 @@ body {
 
   align-items: center;
 }
+.btn2 {
+  background: #7f56d9;
+  color: #fff;
+}
+.btn2:hover {
+  background-color: #002ead;
+  transition: 0.7s;
+}
 .profile {
   /* box-sizing: border-box; */
   width: 95%;
   padding: 1%;
+}
+#textbox {
+  height: 20vh;
+  width: 100vh;
+  /* word-wrap: break-word; */
 }
 .uploadphoto {
   /* margin-top: 12px; */
