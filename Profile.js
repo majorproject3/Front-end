@@ -20,37 +20,48 @@ const profile = () => {
           alt=""
         />
       </div>
-      <div class="propic">
-        <h3> Personal Info</h3>
-        <div>
+      <div class="info">
+        <div style={{ width: 300 }}>
+          <h3> Personal Info</h3>
+        </div>
+
+        <div class="formclass">
           <Form>
             <Form.Group className="mb-3" controlId="text">
               <Form.Label>Name</Form.Label>
               <Form.Control type="text" />
+              <a href="#">Edit</a>
             </Form.Group>
-            <a href="#">Edit</a>
+
             <Form.Group className="mb-3" controlId="formBasicEmail">
               <Form.Label>Email address</Form.Label>
               <Form.Control value="njbjkh" type="email" />
+              <a href="#">Edit</a>
             </Form.Group>
             <Form.Group className="mb-3" controlId="formBasicEmail">
               <Form.Label>Description</Form.Label>
               <Form.Control type="text" />
             </Form.Group>
           </Form>
-          <div class="propic">
-            <img
-              class="img3"
-              src="https://images.unsplash.com/photo-1586210579191-33b45e38fa2c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8ZGVza3RvcCUyMGNvbXB1dGVyfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60"
-              alt=""
-            />
 
-            <a href="">Change Profile Photo</a>
-            <div>
+          <div class="info">
+            <div class="formclass">
+              <div>
+                <img
+                  class="img3"
+                  src="https://images.unsplash.com/photo-1586210579191-33b45e38fa2c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8ZGVza3RvcCUyMGNvbXB1dGVyfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60"
+                  alt=""
+                />
+              </div>
+              <div class="img3">
+                <a href="">Change Photo</a>
+              </div>
+            </div>
+            <div class="uploadphoto">
               <center>
                 <svg
-                  width="20"
-                  height="18"
+                  width="40"
+                  height="36"
                   viewBox="0 0 20 18"
                   fill="none"
                   xmlns="http://www.w3.org/2000/svg"
@@ -64,11 +75,12 @@ const profile = () => {
                   />
                 </svg>
               </center>
-              <a href="#"> Upload Photo</a>
+              <a href="#">Upload Photo</a>
             </div>
           </div>
         </div>
       </div>
+
       <div>
         <a href="#">Logout</a>
       </div>
