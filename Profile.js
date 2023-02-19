@@ -12,7 +12,7 @@ const profile = () => {
         <img
           class="img1"
           src="https://images.unsplash.com/photo-1586210579191-33b45e38fa2c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8ZGVza3RvcCUyMGNvbXB1dGVyfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60"
-          alt=""
+          alt=" "
         />
         <img
           class="img2"
