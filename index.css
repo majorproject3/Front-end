@@ -1,0 +1,171 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* @import 'react-bootstrap-sidebar-menu/dist/sidebar-menu.scss'; */
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: aquamarine;
+}
+.profile {
+  /* box-sizing: border-box; */
+  width: 95%;
+  padding: 1%;
+}
+.propic {
+  display: flex;
+  align-items: center;
+}
+
+.img {
+  padding: 5%;
+}
+/* Display xl/Semibold */
+h1 {
+  color: black;
+}
+.error {
+  display: flex;
+  justify-content: space-around;
+  margin: 10%;
+}
+.btn {
+  padding: 50%;
+}
+.homepg {
+  padding-top: 5%;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 100;
+  font-size: 20px;
+
+  /* identical to box height, or 120% */
+
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: #7e8490;
+  flex: none;
+  /* display: flex;
+  flex-direction: column; */
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.login {
+  display: flex;
+  /* position: flex-end; */
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+  border-radius: 10px;
+  width: 30%;
+  padding: 2%;
+}
+.img1 {
+  height: 20vh;
+  width: 10%;
+}
+.img2 {
+  height: 20vh;
+  width: 90%;
+}
+.img3 {
+  height: 7vh;
+  width: 7vh;
+}
+.outer {
+  display: flex;
+  justify-content: center;
+  padding: 2%;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.resouceSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 96px 0px 0px;
+  background: #f9f5ff;
+  backdrop-filter: blur(55.5556px);
+}
+
+.resourceContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px 32px;
+  gap: 32px;
+  background: #f9f5ff;
+  backdrop-filter: blur(55.5556px);
+}
+
+.resourceContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.resourceSearch {
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 5px 10px;
+  background-color: white;
+  margin-bottom: 60px;
+  display: flex;
+}
+.resourceSearch input {
+  border: none;
+  outline: none;
+  background: white;
+}
+
+.resourceBadge {
+  background-color: #f9f5ff;
+  color: #6941c6;
+  border-radius: 20px;
+  padding: 4px 12px;
+  background: #f9f5ff;
+  mix-blend-mode: multiply;
+  border-radius: 16px;
+}
+
+.resourceText {
+  color: #6941c6;
+  gap: 24px;
+}
+
+.resourceHeading {
+  color: #42307d;
+}
+.freeTrail {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 96px 0px;
+  gap: 64px;
+  background: #f9fafb;
+}
+
+.editor-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 500px;
+}
+.editor-container > div {
+  height: 500px;
+  border: 1px solid black;
+}
+form {
+  padding: 20%;
+}
